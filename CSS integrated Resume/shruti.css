@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #40514E; /*See text color black se change hua hai*/
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    /* line-height: 2; */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px; /*h2 ke neeche wale part ko dur karna*/
+    padding-top: 15px;  /*h2 ke upar wale part ko dur karna*/
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;  
+}
+
+p{
+    line-height: 2; /*Basically text indentation from up and down*/
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.top-container{
+    /* margin: 20px; */
+    /* padding: 10px; */
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro{
+    text-decoration: underline ;
+}
+
+.intro{
+    width: 30%; /*Since the text was in 1 line*/
+    margin: auto; /* Coz then the text went to left */
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px; /*To keep the p in middle of div */
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75em;
+    padding: 20px 0;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+
+.middle-container{
+    margin: 100px 0; /*To create distance between my img and mountain*/
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px; /*Since there was gap between the bottom of our page and the bottom of our footer*/
+}
+
+
+.skill-row{
+    /* display: inline-block; */
+    width: 50%;
+    margin: 100px auto; /*So that voh centre pe aa jaye*/
+    text-align: left;
+}
+
+.guitarimg{  /*In the Documentation*/
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.ttimg{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif; /*Change it same as Webpage wala*/
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+
+
+
+/* 
+Not to be used just to undersatand
+.guitar-skill-desc{
+    clear:left;
+}
+.tt-skill-desc{
+    clear:right;
+} 
+*/
+
+
